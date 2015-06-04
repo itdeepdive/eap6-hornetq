@@ -1,9 +1,13 @@
 # eap6-hornetq
 
 Prerequisite:
+
 1) Download Jboss-eap-6.4
+
 2) cd JBOSS_HOME/bin/client
+
 3) Execute the Below command to install the jboss client jar to local maven repo
+
 mvn install:install-file -Dfile=jboss-client.jar -DgroupId=org.jboss -DartifactId=jboss-client -Dversion=6.4.0 -Dpackaging=jar
 
 Steps:
